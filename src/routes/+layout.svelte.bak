@@ -1,0 +1,117 @@
+<script>
+	import favicon from '$lib/assets/logo.png';
+	import { Navbar, Footer } from '$lib/components';
+	let { children } = $props();
+</script>
+
+<svelte:head>
+	<link rel="icon" href={favicon} />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Exo+2:wght@300;400;600;700&display=swap"
+		rel="stylesheet"
+	/>
+</svelte:head>
+
+<Navbar />
+
+<main class="layout-main">
+	{@render children()}
+</main>
+
+<Footer />
+
+<style>
+	:global(*) {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+
+	:global(:root) {
+		--bg-deep: #080c14;
+		--bg-panel: #0f1626;
+		--bg-card: #141e35;
+		--bg-hover: #1a2845;
+		--border: #2a3a5c;
+		--border-glow: #3d5a8a;
+		--gold: #f4c542;
+		--gold-dim: #a88820;
+		--crimson: #e63946;
+		--teal: #4cc9a0;
+		--teal-dim: #2a7a62;
+		--purple: #9b72cf;
+		--blue: #4a9eff;
+		--text-bright: #f0e6d3;
+		--text-mid: #a8b8d4;
+		--text-dim: #5a6a84;
+		--pixel: 'Press Start 2P', monospace;
+		--body: 'Exo 2', sans-serif;
+	}
+
+	:global(body) {
+		background: var(--bg-deep);
+		color: var(--text-bright);
+		font-family: var(--body);
+		min-height: 100vh;
+		overflow-x: hidden;
+	}
+
+	:global(::-webkit-scrollbar) {
+		width: 6px;
+		height: 6px;
+	}
+	:global(::-webkit-scrollbar-track) {
+		background: var(--bg-panel);
+	}
+	:global(::-webkit-scrollbar-thumb) {
+		background: var(--border-glow);
+		border-radius: 3px;
+	}
+	:global(::-webkit-scrollbar-thumb:hover) {
+		background: var(--blue);
+	}
+
+	:global(input[type='number'], input[type='text'], input[type='search'], select) {
+		background: var(--bg-deep);
+		border: 1px solid var(--border);
+		color: var(--text-bright);
+		font-family: var(--body);
+		font-size: 13px;
+		padding: 6px 10px;
+		border-radius: 4px;
+		outline: none;
+		transition: border-color 0.2s;
+		width: 100%;
+	}
+
+	:global(
+		input[type='number']:focus,
+		input[type='text']:focus,
+		input[type='search']:focus,
+		select:focus
+	) {
+		border-color: var(--blue);
+		box-shadow: 0 0 0 2px rgba(74, 158, 255, 0.15);
+	}
+
+	:global(select) {
+		cursor: pointer;
+	}
+
+	:global(select option) {
+		background: var(--bg-card);
+	}
+
+	:global(button) {
+		cursor: pointer;
+		font-family: var(--body);
+	}
+
+	.layout-main {
+		display: flex;
+		flex-direction: column;
+		min-height: calc(100vh - 56px);
+	}
+</style>

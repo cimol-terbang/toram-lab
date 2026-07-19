@@ -1,0 +1,2079 @@
+[
+	{
+		"name": "Boss Colon",
+		"type": "boss",
+		"level": 10,
+		"element": "Earth",
+		"baseEXP": 30,
+		"baseHP": 1000,
+		"stats": {
+			"def": 7,
+			"pRes": 0,
+			"mDef": 7,
+			"mRes": 0,
+			"pProrat": 10,
+			"mProrat": 15,
+			"nProrat": 10,
+			"critRes": 0,
+			"flee": 11
+		},
+		"phases": [],
+		"retaliates": "None",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Excavated Golem",
+		"type": "boss",
+		"level": 16,
+		"element": "Neutral",
+		"baseEXP": 90,
+		"baseHP": 3150,
+		"stats": {
+			"def": 12,
+			"pRes": 0,
+			"mDef": 12,
+			"mRes": 0,
+			"pProrat": 15,
+			"mProrat": 15,
+			"nProrat": 10,
+			"critRes": 0,
+			"flee": 12
+		},
+		"phases": [],
+		"retaliates": "None. Breaking parts will reduce the boss's defenses by 100%.",
+		"tips": "",
+		"partDestruction": "Breaking parts reduces DEF and MDEF by 100%."
+	},
+	{
+		"name": "Eerie Crystal",
+		"type": "boss",
+		"level": 24,
+		"element": "Dark",
+		"baseEXP": 225,
+		"baseHP": 6300,
+		"stats": {
+			"def": 0,
+			"pRes": 0,
+			"mDef": 0,
+			"mRes": 0,
+			"pProrat": 10,
+			"mProrat": 5,
+			"nProrat": 5,
+			"critRes": 0,
+			"flee": 0
+		},
+		"phases": [],
+		"retaliates": "None",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Minotaur",
+		"type": "boss",
+		"level": 32,
+		"element": "Wind",
+		"baseEXP": 420,
+		"baseHP": 18000,
+		"stats": {
+			"def": 32,
+			"pRes": 1,
+			"mDef": 32,
+			"mRes": 1,
+			"pProrat": 5,
+			"mProrat": 5,
+			"nProrat": 30,
+			"critRes": 0,
+			"flee": 48
+		},
+		"phases": [],
+		"retaliates": "When the boss's HP reaches below 20%, the boss will gain 100% guard rate for 10 seconds and perform three long-range rush attacks that inflict Ignite.",
+		"tips": "Watch out for the HP threshold at 20% — guard rate goes to 100% temporarily. Finish it before it can execute all three rush attacks.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Brutal Dragon Decel",
+		"type": "boss",
+		"level": 40,
+		"element": "Earth",
+		"baseEXP": 560,
+		"baseHP": 53000,
+		"stats": {
+			"def": 20,
+			"pRes": 1,
+			"mDef": 20,
+			"mRes": 1,
+			"pProrat": 20,
+			"mProrat": 8,
+			"nProrat": 20,
+			"critRes": 0,
+			"flee": 75
+		},
+		"phases": [],
+		"retaliates": "T: Guard rate up for 12 seconds.",
+		"tips": "Avoid tumbling the boss unless your party is ready to burst — it triggers guard rate on tumble.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Gespensт",
+		"type": "boss",
+		"level": 20,
+		"element": "Dark",
+		"baseEXP": 240,
+		"baseHP": 8544,
+		"stats": {
+			"def": 26,
+			"pRes": 0,
+			"mDef": 50,
+			"mRes": 0,
+			"pProrat": 30,
+			"mProrat": 15,
+			"nProrat": 20,
+			"critRes": 0,
+			"flee": 30
+		},
+		"phases": [],
+		"retaliates": "None",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Forest Wolf",
+		"type": "boss",
+		"level": 30,
+		"element": "Wind",
+		"baseEXP": 300,
+		"baseHP": 16038,
+		"stats": {
+			"def": 30,
+			"pRes": 0,
+			"mDef": 30,
+			"mRes": 0,
+			"pProrat": 20,
+			"mProrat": 20,
+			"nProrat": 8,
+			"critRes": 0,
+			"flee": 45
+		},
+		"phases": [],
+		"retaliates": "None",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Boss Goblin",
+		"type": "boss",
+		"level": 40,
+		"element": "Fire",
+		"baseEXP": 560,
+		"baseHP": 26758,
+		"stats": {
+			"def": 30,
+			"pRes": 0,
+			"mDef": 30,
+			"mRes": 0,
+			"pProrat": 10,
+			"mProrat": 10,
+			"nProrat": 15,
+			"critRes": 0,
+			"flee": 75
+		},
+		"phases": [],
+		"retaliates": "None",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Mochelo",
+		"type": "boss",
+		"level": 43,
+		"element": "Wind",
+		"baseEXP": 620,
+		"baseHP": 60000,
+		"stats": {
+			"def": 0,
+			"pRes": 1,
+			"mDef": 0,
+			"mRes": 1,
+			"pProrat": 10,
+			"mProrat": 50,
+			"nProrat": 3,
+			"critRes": 0,
+			"flee": 64
+		},
+		"phases": [],
+		"retaliates": "None. The boss's attack power decreases at 50% HP and at 25% HP.",
+		"tips": "Attack power drops at 50% and 25% HP — survivability increases as fight progresses.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Flare Volg",
+		"type": "boss",
+		"level": 50,
+		"element": "Fire",
+		"baseEXP": 1500,
+		"baseHP": 120000,
+		"stats": {
+			"def": {
+				"PH1": 100,
+				"PH2": 62
+			},
+			"pRes": 2,
+			"mDef": {
+				"PH1": 100,
+				"PH2": 62
+			},
+			"mRes": 2,
+			"pProrat": 25,
+			"mProrat": 25,
+			"nProrat": 6,
+			"critRes": 0,
+			"flee": 56
+		},
+		"phases": [
+			{
+				"id": "PH2",
+				"trigger": "50% HP",
+				"description": "Switches to PH2 at 50% HP."
+			}
+		],
+		"retaliates": "The boss switches to PH2 at 50% HP. Breaking parts reduces the boss's DEF and MDEF by 25%.",
+		"tips": "DEF is high in PH1 — prioritize part breaks early to reduce it before the phase transition.",
+		"partDestruction": "Breaking parts reduces DEF and MDEF by 25%."
+	},
+	{
+		"name": "Ooze",
+		"type": "boss",
+		"level": 52,
+		"element": "Water",
+		"baseEXP": 1400,
+		"baseHP": 44000,
+		"stats": {
+			"def": 78,
+			"pRes": 12,
+			"mDef": 78,
+			"mRes": 12,
+			"pProrat": 5,
+			"mProrat": 5,
+			"nProrat": 30,
+			"critRes": 0,
+			"flee": 0
+		},
+		"phases": [],
+		"retaliates": "None",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Mauez",
+		"type": "boss",
+		"level": 55,
+		"element": "Water",
+		"baseEXP": 1290,
+		"baseHP": 86000,
+		"stats": {
+			"def": {
+				"PH1": 165,
+				"PH2": 78
+			},
+			"pRes": 7,
+			"mDef": {
+				"PH1": 165,
+				"PH2": 78
+			},
+			"mRes": 7,
+			"pProrat": 10,
+			"mProrat": 10,
+			"nProrat": 15,
+			"critRes": {
+				"PHR41": 41,
+				"PH2246": 246
+			},
+			"flee": 0
+		},
+		"phases": [
+			{
+				"id": "PH2",
+				"trigger": "50% HP",
+				"description": "Switches to PH2 at 50% HP."
+			}
+		],
+		"retaliates": "The boss switches to PH2 at 50% HP.",
+		"tips": "Negative crit resistance in PH2 means critical hits are easier to land — magic attacks gain crit chance too in PH2.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Ganglef",
+		"type": "boss",
+		"level": 58,
+		"element": "Earth",
+		"baseEXP": 1150,
+		"baseHP": 107800,
+		"stats": {
+			"def": 232,
+			"pRes": 1,
+			"mDef": 58,
+			"mRes": 1,
+			"pProrat": 25,
+			"mProrat": 25,
+			"nProrat": 6,
+			"critRes": 0,
+			"flee": 43
+		},
+		"phases": [],
+		"retaliates": "None",
+		"tips": "Magic attacks are much more effective here given the very low MDEF compared to DEF.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Demon's Gate",
+		"type": "boss",
+		"level": 60,
+		"element": "Dark",
+		"baseEXP": 1440,
+		"baseHP": 18000,
+		"stats": {
+			"def": 180,
+			"pRes": {
+				"N": 2,
+				"F": 20
+			},
+			"mDef": 180,
+			"mRes": {
+				"N": 2,
+				"F": 20
+			},
+			"pProrat": 1,
+			"mProrat": 1,
+			"nProrat": 150,
+			"critRes": 0,
+			"flee": 0
+		},
+		"phases": [],
+		"retaliates": "F: Guard rate up for 15 seconds.",
+		"tips": "Do NOT flinch the boss — flinching triggers 15s guard rate and spikes resistances to 20%. Neutral proration is 150, so neutral damage is very effective.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Boss Roga",
+		"type": "boss",
+		"level": 62,
+		"element": "Neutral",
+		"baseEXP": 3000,
+		"baseHP": 250000,
+		"stats": {
+			"def": {
+				"N": 62,
+				"F": 62,
+				"FTS": 186
+			},
+			"pRes": {
+				"N": 2,
+				"F": 2,
+				"FTS": 27
+			},
+			"mDef": {
+				"N": 62,
+				"F": 62,
+				"FTS": 186
+			},
+			"mRes": {
+				"N": 2,
+				"F": 2,
+				"FTS": 27
+			},
+			"pProrat": 10,
+			"mProrat": 10,
+			"nProrat": 15,
+			"critRes": 0,
+			"flee": 0
+		},
+		"phases": [],
+		"retaliates": "FTS: The boss's defenses and resistances significantly increase for approximately 15 seconds. The boss's attack power is also reduced during this duration.",
+		"tips": "When flinched/tumbled/stunned, DEF triples to 186 and PRes spikes to 27 — avoid CC or time your CC when the party is ready to capitalize on reduced attack power instead.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Astol",
+		"type": "boss",
+		"level": 50,
+		"element": "Wind",
+		"baseEXP": 760,
+		"baseHP": 82040,
+		"stats": {
+			"def": 50,
+			"pRes": 1,
+			"mDef": 150,
+			"mRes": 1,
+			"pProrat": 25,
+			"mProrat": 25,
+			"nProrat": 6,
+			"critRes": 0,
+			"flee": 112
+		},
+		"phases": [],
+		"retaliates": "TS: The boss will perform a delayed, straight-line counter attack. Due to the delayed nature of this attack, TS is actually safe to use. You can easily break this boss's head by interrupting it while it is slowly flying towards you with its body parallel to the ground.",
+		"tips": "Tumble+Stun is safe due to the delayed counter. Target the head for a part break — approach from the side while it charges.",
+		"partDestruction": "Head can be broken by interrupting the boss during its slow flight charge."
+	},
+	{
+		"name": "Foresta",
+		"type": "boss",
+		"level": 49,
+		"element": "Wind",
+		"baseEXP": 1480,
+		"baseHP": 135000,
+		"stats": {
+			"def": 24,
+			"pRes": 1,
+			"mDef": 24,
+			"mRes": 1,
+			"pProrat": 10,
+			"mProrat": 10,
+			"nProrat": 15,
+			"critRes": 0,
+			"flee": 292
+		},
+		"phases": [],
+		"retaliates": "The player can fall off the stage's cliffs.",
+		"tips": "Extremely high Flee (292). Focus on accuracy buffs or use skills that ignore flee. Fight near the center — the arena has cliffs that can knock you off.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Ruin Golem",
+		"type": "boss",
+		"level": 45,
+		"element": "Earth",
+		"baseEXP": 660,
+		"baseHP": 41200,
+		"stats": {
+			"def": 106,
+			"pRes": 1,
+			"mDef": 106,
+			"mRes": 1,
+			"pProrat": 15,
+			"mProrat": 15,
+			"nProrat": 10,
+			"critRes": 0,
+			"flee": 14
+		},
+		"phases": [],
+		"retaliates": "Support mobs will spawn every 20 seconds. Breaking parts reduces the boss's DEF and MDEF by 23.8%.",
+		"tips": "Prioritize breaking parts to significantly reduce its high DEF. Support mobs spawn frequently — bring AoE or designate one player to handle them.",
+		"partDestruction": "Breaking parts reduces DEF and MDEF by 23.8%."
+	},
+	{
+		"name": "Warmonger",
+		"type": "boss",
+		"level": 60,
+		"element": "Light",
+		"baseEXP": 960,
+		"baseHP": 147690,
+		"stats": {
+			"def": 60,
+			"pRes": 2,
+			"mDef": 60,
+			"mRes": 2,
+			"pProrat": 25,
+			"mProrat": 25,
+			"nProrat": 6,
+			"critRes": 0,
+			"flee": 0
+		},
+		"phases": [],
+		"retaliates": "None",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Dark Mushroom",
+		"type": "miniboss",
+		"level": 30,
+		"location": "Isthmus of Kaus",
+		"element": "Dark",
+		"baseEXP": 440,
+		"baseHP": 17500,
+		"stats": {
+			"def": 30,
+			"pRes": 1,
+			"mDef": 30,
+			"mRes": 1,
+			"nProrat": 5,
+			"pProrat": 25,
+			"mProrat": 50,
+			"flee": 34,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Colon Commander",
+		"type": "miniboss",
+		"level": 33,
+		"location": "Strug Road",
+		"element": "Fire",
+		"baseEXP": 440,
+		"baseHP": 22000,
+		"stats": {
+			"def": 0,
+			"pRes": 1,
+			"mDef": 66,
+			"mRes": 1,
+			"nProrat": 0,
+			"pProrat": 10,
+			"mProrat": 30,
+			"flee": 28,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Crimsosch",
+		"type": "miniboss",
+		"level": 37,
+		"location": "Athema Ruins: Area 2",
+		"element": "Fire",
+		"baseEXP": 500,
+		"baseHP": 22500,
+		"stats": {
+			"def": 74,
+			"pRes": 1,
+			"mDef": 74,
+			"mRes": 1,
+			"nProrat": 100,
+			"pProrat": 5,
+			"mProrat": 5,
+			"flee": 164,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "High neutral proration — neutral attacks deal greatly increased damage.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Tortuga",
+		"type": "miniboss",
+		"level": 40,
+		"location": "Lule Lake",
+		"element": "Water",
+		"baseEXP": 560,
+		"baseHP": 13500,
+		"stats": {
+			"def": 10,
+			"pRes": 1,
+			"mDef": 30,
+			"mRes": 1,
+			"nProrat": 1,
+			"pProrat": 1,
+			"mProrat": 1,
+			"flee": 30,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Miracle Potum",
+		"type": "miniboss",
+		"level": 42,
+		"location": "Ruined Temple: Area 2",
+		"element": "Light",
+		"baseEXP": 600,
+		"baseHP": 29000,
+		"stats": {
+			"def": 31,
+			"pRes": 1,
+			"mDef": 51,
+			"mRes": 1,
+			"nProrat": 1,
+			"pProrat": 25,
+			"mProrat": 50,
+			"flee": 95,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Silver Roar",
+		"type": "miniboss",
+		"level": 42,
+		"location": "Debakcy Channel: B1",
+		"element": "Water",
+		"baseEXP": 590,
+		"baseHP": 14570,
+		"stats": {
+			"def": 0,
+			"pRes": 1,
+			"mDef": 15,
+			"mRes": 11,
+			"nProrat": 100,
+			"pProrat": 100,
+			"mProrat": 100,
+			"flee": 505,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "Extremely high FLEE (505) and 100 across all prorations. Bring accuracy buffs.",
+		"partDestruction": ""
+	},
+	{
+		"name": "King Potum",
+		"type": "miniboss",
+		"level": 50,
+		"location": "Athema Ruins: Area 1",
+		"element": "Neutral",
+		"baseEXP": 320,
+		"baseHP": 8000,
+		"stats": {
+			"def": 25,
+			"pRes": 2,
+			"mDef": 51,
+			"mRes": 2,
+			"nProrat": 25,
+			"pProrat": 25,
+			"mProrat": 25,
+			"flee": 112,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Sand Mole",
+		"type": "miniboss",
+		"level": 50,
+		"location": "Centerio Highlands",
+		"element": "Earth",
+		"baseEXP": 380,
+		"baseHP": 20000,
+		"stats": {
+			"def": 62,
+			"pRes": 2,
+			"mDef": 63,
+			"mRes": 2,
+			"nProrat": 12,
+			"pProrat": 15,
+			"mProrat": 15,
+			"flee": 75,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Giant Boar",
+		"type": "miniboss",
+		"level": 52,
+		"location": "Nisel Mountain",
+		"element": "Earth",
+		"baseEXP": 800,
+		"baseHP": 88000,
+		"stats": {
+			"def": 156,
+			"pRes": 2,
+			"mDef": 156,
+			"mRes": 2,
+			"nProrat": 1,
+			"pProrat": 50,
+			"mProrat": 50,
+			"flee": 20,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Golden Skeleton",
+		"type": "miniboss",
+		"level": 54,
+		"location": "Zoktza Ruins",
+		"element": "Neutral",
+		"baseEXP": 840,
+		"baseHP": 47200,
+		"stats": {
+			"def": 54,
+			"pRes": 2,
+			"mDef": 54,
+			"mRes": 2,
+			"nProrat": 50,
+			"pProrat": 0,
+			"mProrat": 0,
+			"flee": 325,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "Zero physical and magic proration but 50 neutral proration — use neutral attacks.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Big Coryn",
+		"type": "miniboss",
+		"level": 60,
+		"location": "Douce Hamlet",
+		"element": "Light",
+		"baseEXP": 1730,
+		"baseHP": 130000,
+		"stats": {
+			"def": 60,
+			"pRes": 2,
+			"mDef": 60,
+			"mRes": 2,
+			"nProrat": 1,
+			"pProrat": 1,
+			"mProrat": 1,
+			"flee": 269,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "All prorations are 1 — effectively deals reduced damage from all attack types.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Seltirio",
+		"type": "miniboss",
+		"level": 60,
+		"location": "Aulada Ancient Tower",
+		"element": "Dark",
+		"baseEXP": 960,
+		"baseHP": 60000,
+		"stats": {
+			"def": 45,
+			"pRes": 0,
+			"mDef": 75,
+			"mRes": 0,
+			"nProrat": 0,
+			"pProrat": 25,
+			"mProrat": 25,
+			"flee": 105,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Stone Mercenary",
+		"type": "miniboss",
+		"level": 60,
+		"location": "Zoktza Ruins: Abnormal Space",
+		"element": "Earth",
+		"baseEXP": 960,
+		"baseHP": 59000,
+		"stats": {
+			"def": 120,
+			"pRes": 2,
+			"mDef": 120,
+			"mRes": 2,
+			"nProrat": 1,
+			"pProrat": 50,
+			"mProrat": 50,
+			"flee": 0,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Arcoiris",
+		"type": "miniboss",
+		"level": 70,
+		"location": "Yori Highlands",
+		"element": "Neutral",
+		"baseEXP": 2400,
+		"baseHP": 790000,
+		"stats": {
+			"def": 210,
+			"pRes": 2,
+			"mDef": 350,
+			"mRes": 2,
+			"nProrat": 1,
+			"pProrat": 50,
+			"mProrat": 5,
+			"flee": 11,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "Massive HP and very high MDEF. Physical attacks are much more effective than magic here.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Big Mask",
+		"type": "miniboss",
+		"level": 70,
+		"location": "Haotas Ravine",
+		"element": "Wind",
+		"baseEXP": 2400,
+		"baseHP": 210000,
+		"stats": {
+			"def": 140,
+			"pRes": 2,
+			"mDef": 140,
+			"mRes": 2,
+			"nProrat": 5,
+			"pProrat": 50,
+			"mProrat": 50,
+			"flee": 27,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Outer World Wolf",
+		"type": "miniboss",
+		"level": 70,
+		"location": "Gate to Another World: Area 1 or 2",
+		"element": "Light",
+		"baseEXP": 4800,
+		"baseHP": 340000,
+		"stats": {
+			"def": 210,
+			"pRes": 20,
+			"mDef": 174,
+			"mRes": 20,
+			"nProrat": 20,
+			"pProrat": 30,
+			"mProrat": 30,
+			"flee": 210,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "High resistances (20%) on both physical and magic. High FLEE too.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Moonlight Potum",
+		"type": "miniboss",
+		"level": 72,
+		"location": "New Moon Palace: Innermost",
+		"element": "Dark",
+		"baseEXP": 1860,
+		"baseHP": 257000,
+		"stats": {
+			"def": 288,
+			"pRes": 2,
+			"mDef": 0,
+			"mRes": 2,
+			"nProrat": 100,
+			"pProrat": 50,
+			"mProrat": 50,
+			"flee": 108,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "Zero MDEF — magic attacks bypass almost all defense. Very high physical DEF.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Gigant Knight",
+		"type": "miniboss",
+		"level": 76,
+		"location": "Saham Crater",
+		"element": "Earth",
+		"baseEXP": 2680,
+		"baseHP": 940000,
+		"stats": {
+			"def": 304,
+			"pRes": 8,
+			"mDef": 304,
+			"mRes": 8,
+			"nProrat": 1,
+			"pProrat": 5,
+			"mProrat": 50,
+			"flee": 14,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "Very high HP and DEF. Magic proration (50) much higher than physical (5) — prefer magic.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Caspy",
+		"type": "miniboss",
+		"level": 77,
+		"location": "Ancient Empress Tomb: Area 2",
+		"element": "Dark",
+		"baseEXP": 2120,
+		"baseHP": 100000,
+		"stats": {
+			"def": 153,
+			"pRes": 47,
+			"mDef": 153,
+			"mRes": 47,
+			"nProrat": 10,
+			"pProrat": 20,
+			"mProrat": 20,
+			"flee": 229,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "Very high resistances (47%) on both physical and magic.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Violacoon",
+		"type": "miniboss",
+		"level": 80,
+		"location": "Darkanon Plain",
+		"element": "Earth",
+		"baseEXP": 5472,
+		"baseHP": 450000,
+		"stats": {
+			"def": 330,
+			"pRes": 3,
+			"mDef": 289,
+			"mRes": 3,
+			"nProrat": 30,
+			"pProrat": 10,
+			"mProrat": 10,
+			"flee": 60,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Metal Stinger",
+		"type": "miniboss",
+		"level": 82,
+		"location": "Akaku Desert: Area 1 or 2",
+		"element": "Earth",
+		"baseEXP": 4050,
+		"baseHP": 337800,
+		"stats": {
+			"def": 164,
+			"pRes": 3,
+			"mDef": 122,
+			"mRes": 3,
+			"nProrat": 20,
+			"pProrat": 20,
+			"mProrat": 20,
+			"flee": 65,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Shining Gentleman",
+		"type": "miniboss",
+		"level": 82,
+		"location": "Lost Town: Square",
+		"element": "Light",
+		"baseEXP": 6000,
+		"baseHP": 220000,
+		"stats": {
+			"def": 410,
+			"pRes": 3,
+			"mDef": 245,
+			"mRes": 3,
+			"nProrat": 100,
+			"pProrat": 5,
+			"mProrat": 10,
+			"flee": 15,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "Extremely high DEF (410) but high neutral proration — use neutral attacks.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Death Colon",
+		"type": "miniboss",
+		"level": 84,
+		"location": "Vyshed the Tainted Land: Area 2",
+		"element": "Dark",
+		"baseEXP": 4620,
+		"baseHP": 590000,
+		"stats": {
+			"def": 630,
+			"pRes": 20,
+			"mDef": 630,
+			"mRes": 20,
+			"nProrat": 60,
+			"pProrat": 60,
+			"mProrat": 60,
+			"flee": 378,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "Extremely high DEF/MDEF and resistances. High FLEE. Very tanky — bring pierce skills.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Granny",
+		"type": "miniboss",
+		"level": 88,
+		"location": "Abyss of No Return: Area 3",
+		"element": "Earth",
+		"baseEXP": 3818,
+		"baseHP": 322500,
+		"stats": {
+			"def": 154,
+			"pRes": 3,
+			"mDef": 193,
+			"mRes": 3,
+			"nProrat": 8,
+			"pProrat": 30,
+			"mProrat": 30,
+			"flee": 65,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Grylle",
+		"type": "miniboss",
+		"level": 90,
+		"location": "Wanderer's Plain",
+		"element": "Dark",
+		"baseEXP": 1720,
+		"baseHP": 125000,
+		"stats": {
+			"def": 315,
+			"pRes": 3,
+			"mDef": 315,
+			"mRes": 3,
+			"nProrat": 3,
+			"pProrat": 20,
+			"mProrat": 20,
+			"flee": 68,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Don Yeti",
+		"type": "miniboss",
+		"level": 103,
+		"location": "Polde Ice Valley",
+		"element": "Earth",
+		"baseEXP": 9482,
+		"baseHP": 550000,
+		"stats": {
+			"def": 206,
+			"pRes": 4,
+			"mDef": 124,
+			"mRes": 4,
+			"nProrat": 25,
+			"pProrat": 50,
+			"mProrat": 50,
+			"flee": 116,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Nightmare Potum",
+		"type": "miniboss",
+		"level": 120,
+		"location": "Garden of Beginning",
+		"element": "Dark",
+		"baseEXP": 15800,
+		"baseHP": 1500000,
+		"stats": {
+			"def": 240,
+			"pRes": 54,
+			"mDef": 281,
+			"mRes": 54,
+			"nProrat": 50,
+			"pProrat": 50,
+			"mProrat": 50,
+			"flee": 358,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "Very high resistances (54%) and FLEE. Bring accuracy and pierce.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Daddy Finpen",
+		"type": "miniboss",
+		"level": 123,
+		"location": "Spring of Rebirth: Middle",
+		"element": "Water",
+		"baseEXP": 8000,
+		"baseHP": 800000,
+		"stats": {
+			"def": 615,
+			"pRes": 4,
+			"mDef": 62,
+			"mRes": 4,
+			"nProrat": 50,
+			"pProrat": 1,
+			"mProrat": 10,
+			"flee": 92,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "Extremely high DEF (615) but very low MDEF (62). Magic attacks are far superior here.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Lapin the Necromancer",
+		"type": "miniboss",
+		"level": 124,
+		"location": "Trace of Dark River",
+		"element": "Neutral",
+		"baseEXP": 17222,
+		"baseHP": 1665000,
+		"stats": {
+			"def": 143,
+			"pRes": 4,
+			"mDef": 311,
+			"mRes": 25,
+			"nProrat": 10,
+			"pProrat": 5,
+			"mProrat": 40,
+			"flee": 372,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "Very high FLEE and MDEF. Physical attacks are preferred given lower DEF vs MDEF.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Corroded Knight Captain",
+		"type": "miniboss",
+		"level": 128,
+		"location": "Dark Manor: Area 1",
+		"element": "Dark",
+		"baseEXP": 8738,
+		"baseHP": 900000,
+		"stats": {
+			"def": 568,
+			"pRes": 35,
+			"mDef": 693,
+			"mRes": 35,
+			"nProrat": 10,
+			"pProrat": 10,
+			"mProrat": 20,
+			"flee": 576,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "Both DEF and MDEF are extremely high, along with 35% resistances and huge FLEE.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Salamander",
+		"type": "miniboss",
+		"level": 132,
+		"location": "Blazing Graben: Upper",
+		"element": "Fire",
+		"baseEXP": 20242,
+		"baseHP": 2000000,
+		"stats": {
+			"def": 331,
+			"pRes": 5,
+			"mDef": 330,
+			"mRes": 5,
+			"nProrat": 10,
+			"pProrat": 50,
+			"mProrat": 50,
+			"flee": 396,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Evil Magic Sword",
+		"type": "miniboss",
+		"level": 134,
+		"location": "Singolare Ruins: 2nd Floor",
+		"element": "Dark",
+		"baseEXP": 19123,
+		"baseHP": 1983000,
+		"stats": {
+			"def": 108,
+			"pRes": 5,
+			"mDef": 134,
+			"mRes": 5,
+			"nProrat": 10,
+			"pProrat": 10,
+			"mProrat": 40,
+			"flee": 342,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Builder Golem",
+		"type": "miniboss",
+		"level": 138,
+		"location": "Huge Crysta Factory: 3rd Floor",
+		"element": "Neutral",
+		"baseEXP": 17564,
+		"baseHP": 1823000,
+		"stats": {
+			"def": 483,
+			"pRes": 5,
+			"mDef": 484,
+			"mRes": 5,
+			"nProrat": 20,
+			"pProrat": 20,
+			"mProrat": 20,
+			"flee": 248,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Dusk Machina",
+		"type": "miniboss",
+		"level": 142,
+		"location": "Small Demi Machina Factory: Area 2",
+		"element": "Dark",
+		"baseEXP": 17338,
+		"baseHP": 1895000,
+		"stats": {
+			"def": 426,
+			"pRes": 5,
+			"mDef": 427,
+			"mRes": 5,
+			"nProrat": 15,
+			"pProrat": 5,
+			"mProrat": 5,
+			"flee": 320,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "Neutral proration (15) higher than both physical and magic — consider neutral skills.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Odelon Machina",
+		"type": "miniboss",
+		"level": 146,
+		"location": "Large Demi Machina Factory: Area 2",
+		"element": "Light",
+		"baseEXP": 21357,
+		"baseHP": 2300000,
+		"stats": {
+			"def": 110,
+			"pRes": 5,
+			"mDef": 308,
+			"mRes": 5,
+			"nProrat": 1,
+			"pProrat": 1,
+			"mProrat": 10,
+			"flee": 548,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "Extremely high FLEE (548). Low proration across the board — magic (10) is the best option.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Super Death Mushroom",
+		"type": "miniboss",
+		"level": 150,
+		"location": "Monster's Forest: Animal Trail",
+		"element": "Dark",
+		"baseEXP": 24871,
+		"baseHP": 2810000,
+		"stats": {
+			"def": 225,
+			"pRes": 4,
+			"mDef": 225,
+			"mRes": 4,
+			"nProrat": 30,
+			"pProrat": 35,
+			"mProrat": 40,
+			"flee": 225,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Commander Golem",
+		"type": "miniboss",
+		"level": 154,
+		"location": "Lufenas Mansion: Entrance",
+		"element": "Dark",
+		"baseEXP": 20580,
+		"baseHP": 2050000,
+		"stats": {
+			"def": 231,
+			"pRes": 6,
+			"mDef": 309,
+			"mRes": 6,
+			"nProrat": 35,
+			"pProrat": 35,
+			"mProrat": 40,
+			"flee": 231,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Lyark Master Specialist",
+		"type": "miniboss",
+		"level": 157,
+		"location": "Brahe Laboratory: 2nd Building",
+		"element": "Wind",
+		"baseEXP": 19089,
+		"baseHP": 2140000,
+		"stats": {
+			"def": 157,
+			"pRes": 6,
+			"mDef": 157,
+			"mRes": 6,
+			"nProrat": 40,
+			"pProrat": 35,
+			"mProrat": 35,
+			"flee": 306,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Amoeba Machina",
+		"type": "miniboss",
+		"level": 158,
+		"location": "Ultimea Sewer: Southeast",
+		"element": "Water",
+		"baseEXP": 29000,
+		"baseHP": 4000000,
+		"stats": {
+			"def": 158,
+			"pRes": 6,
+			"mDef": 237,
+			"mRes": 6,
+			"nProrat": 100,
+			"pProrat": 50,
+			"mProrat": 50,
+			"flee": 308,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "T: Immune; IGNITE: 1.5× damage to miniboss",
+		"tips": "Tumble immunity — do not try to tumble. Ignite deals 1.5× damage to this boss, very effective.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Volotur",
+		"type": "miniboss",
+		"level": 160,
+		"location": "Suburb of Droma Square: Area 3",
+		"element": "Dark",
+		"baseEXP": 24024,
+		"baseHP": 2510000,
+		"stats": {
+			"def": 241,
+			"pRes": 6,
+			"mDef": 240,
+			"mRes": 6,
+			"nProrat": 30,
+			"pProrat": 40,
+			"mProrat": 40,
+			"flee": 288,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Wandering Wheel",
+		"type": "miniboss",
+		"level": 163,
+		"location": "Ultimea Palace: Demi Machina Storage",
+		"element": "Wind",
+		"baseEXP": 20223,
+		"baseHP": 2610000,
+		"stats": {
+			"def": 897,
+			"pRes": 6,
+			"mDef": 816,
+			"mRes": 6,
+			"nProrat": 30,
+			"pProrat": 30,
+			"mProrat": 30,
+			"flee": 366,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "FTS: Immune; SLOW/FREEZE: Damage to miniboss triples",
+		"tips": "Flinch/Tumble/Stun immunity. Apply Slow or Freeze to triple all damage dealt — key mechanic for this fight.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Seraph Machina",
+		"type": "miniboss",
+		"level": 167,
+		"location": "Buried Tower: Inside",
+		"element": "Light",
+		"baseEXP": 21073,
+		"baseHP": 3333000,
+		"stats": {
+			"def": 501,
+			"pRes": 33,
+			"mDef": 168,
+			"mRes": 6,
+			"nProrat": 5,
+			"pProrat": 5,
+			"mProrat": 100,
+			"flee": 250,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "Extremely high physical resistance (33%). MDEF is very low (168) and magic proration is 100 — magic is overwhelmingly superior.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Solopy",
+		"type": "miniboss",
+		"level": 169,
+		"location": "Turnus Mine: Area 3",
+		"element": "Earth",
+		"baseEXP": 23835,
+		"baseHP": 3000000,
+		"stats": {
+			"def": 338,
+			"pRes": 6,
+			"mDef": 339,
+			"mRes": 6,
+			"nProrat": 20,
+			"pProrat": 20,
+			"mProrat": 20,
+			"flee": 506,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "Very high FLEE (506). Bring accuracy buffs.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Fanadon",
+		"type": "miniboss",
+		"level": 171,
+		"location": "Curonne Forest: North Area 2",
+		"element": "Neutral",
+		"baseEXP": 24360,
+		"baseHP": 3245000,
+		"stats": {
+			"def": 32,
+			"pRes": 6,
+			"mDef": 343,
+			"mRes": 6,
+			"nProrat": 25,
+			"pProrat": 25,
+			"mProrat": 50,
+			"flee": 384,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "F: Immune",
+		"tips": "Flinch immunity. Very low physical DEF (32) vs high MDEF (343) — physical attacks strongly preferred.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Altobepass",
+		"type": "miniboss",
+		"level": 174,
+		"location": "Rokoko Plains",
+		"element": "Neutral",
+		"baseEXP": 27500,
+		"baseHP": 4350000,
+		"stats": {
+			"def": 174,
+			"pRes": 6,
+			"mDef": 174,
+			"mRes": 6,
+			"nProrat": 10,
+			"pProrat": 20,
+			"mProrat": 30,
+			"flee": 130,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "T: Immune",
+		"tips": "Tumble immunity.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Bubble Bogey",
+		"type": "miniboss",
+		"level": 177,
+		"location": "Barbaros Corridor",
+		"element": "Fire",
+		"baseEXP": 26754,
+		"baseHP": 3377000,
+		"stats": {
+			"def": 369,
+			"pRes": 4,
+			"mDef": 708,
+			"mRes": 4,
+			"nProrat": 10,
+			"pProrat": 10,
+			"mProrat": 10,
+			"flee": 530,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "T: Immune",
+		"tips": "Tumble immunity. Very high MDEF (708) and FLEE (530). Physical attacks preferred.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Mithurna Lynx",
+		"type": "miniboss",
+		"level": 177,
+		"location": "Ruins of Mt. Mithurna: Stylobate",
+		"element": "Light",
+		"baseEXP": 25725,
+		"baseHP": 3128000,
+		"stats": {
+			"def": 354,
+			"pRes": 7,
+			"mDef": 354,
+			"mRes": 7,
+			"nProrat": 25,
+			"pProrat": 25,
+			"mProrat": 25,
+			"flee": 398,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Carbuncle",
+		"type": "miniboss",
+		"level": 183,
+		"location": "Hall of Construction Gods",
+		"element": "Fire",
+		"baseEXP": 27200,
+		"baseHP": 3412000,
+		"stats": {
+			"def": 382,
+			"pRes": 4,
+			"mDef": 367,
+			"mRes": 7,
+			"nProrat": 30,
+			"pProrat": 30,
+			"mProrat": 40,
+			"flee": 411,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "",
+		"partDestruction": ""
+	},
+	{
+		"name": "Goldenia",
+		"type": "miniboss",
+		"level": 187,
+		"location": "Elf Mountains: Area 3",
+		"element": "Wind",
+		"baseEXP": 27930,
+		"baseHP": 3500000,
+		"stats": {
+			"def": 1117,
+			"pRes": 7,
+			"mDef": 93,
+			"mRes": 7,
+			"nProrat": 10,
+			"pProrat": 50,
+			"mProrat": 100,
+			"flee": 840,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "Highest DEF of any miniboss (1117) but very low MDEF (93) — magic with 100 proration is overwhelmingly better. Highest FLEE in the database (840).",
+		"partDestruction": ""
+	},
+	{
+		"name": "Thug Golem",
+		"type": "miniboss",
+		"level": 191,
+		"location": "Dark Dragon Shrine: Middle",
+		"element": "Water",
+		"baseEXP": 29190,
+		"baseHP": 3942300,
+		"stats": {
+			"def": 383,
+			"pRes": 14,
+			"mDef": 383,
+			"mRes": 14,
+			"nProrat": 20,
+			"pProrat": 20,
+			"mProrat": 20,
+			"flee": 270,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "FTS: 100% Physical and Magical resistance for a brief period of time",
+		"tips": "Do not use Flinch/Tumble/Stun — it grants 100% resistance briefly. Wait for it to expire before continuing damage.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Grimuckus",
+		"type": "miniboss",
+		"level": 195,
+		"location": "Wazeero Street",
+		"element": "Water",
+		"baseEXP": 30240,
+		"baseHP": 3949200,
+		"stats": {
+			"def": 429,
+			"pRes": 7,
+			"mDef": 390,
+			"mRes": 7,
+			"nProrat": 20,
+			"pProrat": 30,
+			"mProrat": 30,
+			"flee": 599,
+			"critRes": 0
+		},
+		"phases": [],
+		"retaliates": "N/A",
+		"tips": "Very high FLEE (599). Bring accuracy buffs.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Vlam the flame dragon",
+		"type": "boss",
+		"level": 220,
+		"element": "Fire",
+		"baseEXP": 16700,
+		"baseHP": 5600000,
+		"stats": {
+			"def": {
+				"PH1": 880,
+				"PH2": 440,
+				"PH3": 220
+			},
+			"pRes": {
+				"PH1": 8,
+				"PH2": 0,
+				"PH3": -16
+			},
+			"mDef": {
+				"PH1": 880,
+				"PH2": 440,
+				"PH3": 220
+			},
+			"mRes": {
+				"PH1": 8,
+				"PH2": 0,
+				"PH3": -16
+			},
+			"pProrat": 10,
+			"mProrat": 15,
+			"nProrat": 10,
+			"critRes": 30,
+			"flee": 410
+		},
+		"phases": [
+			{
+				"id": "PH2",
+				"trigger": "66% HP",
+				"description": "Switches to PH2 at 66% HP."
+			},
+			{
+				"id": "PH3",
+				"trigger": "33% HP",
+				"description": "Switches to PH3 at 33% HP."
+			}
+		],
+		"retaliates": "PH1: HP > 66%. Immune to F. TS are both OK.\nPH2: HP > 33% & HP <= 66%. Immune to S. FT are both OK.\nPH3: HP <= 33%. Immune to TS. F is OK.\nThe boss has a high FTS cooldown.",
+		"tips": "The boss's floor attacks deal heavy MaxHP fractional damage (about 75% fractional damage without any reductions). The boss also has attacks that inflict absolute ailments.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Velum",
+		"type": "boss",
+		"level": 223,
+		"element": "Neutral",
+		"baseEXP": 20600,
+		"baseHP": 4260000,
+		"stats": {
+			"def": 892,
+			"pRes": {
+				"Cyan/Blue/Red": 8,
+				"Purple": 75
+			},
+			"mDef": 892,
+			"mRes": {
+				"Cyan/Blue/Red": 8,
+				"Purple": 75
+			},
+			"pProrat": 5,
+			"mProrat": 10,
+			"nProrat": 5,
+			"critRes": 25,
+			"flee": 330
+		},
+		"phases": [],
+		"retaliates": "The boss starts out in CYAN form. After 8 seconds, it will either remain in CYAN form or change to RED/BLUE form depending on the aggro holder's distance to the boss:\nCYAN: 6m <= dist < 7m\nBLUE: dist >= 7m\nRED: dist < 6m\n\nAfter 20 sec of being in RED/BLUE form, it will revert back to CYAN form and change color again after 8 sec if the distance conditions are met. This periodic color change repeats throughout the battle. FTS does not reset the 20 sec timer of a color form. Breaking the boss's parts reduces its guard rate.\nCYAN: FTS is OK\nRED: Retaliates to F (turn into Purple)\nBLUE: Retaliates to T (turn into Purple)\nPURPLE: Immune to FTS. Retaliates to [Fear]\n\nThe boss turns PURPLE (for 20 sec), gains [Invincible] for 5 seconds, releases 9 magical bullets, attacks with a magical straight line AOE, and performs two charge attacks. The aforementioned magical bullets and all of the boss's straight line attacks inflict absolute [Mana Explosion]. While in PURPLE form, the boss's guard rate is extremely high.",
+		"tips": "Manage distance based on aggro holder to control the boss's form. Avoid flinching in RED form and tumbling in BLUE form to prevent the boss from entering the dangerous PURPLE form.",
+		"partDestruction": "Breaking parts reduces the boss's guard rate."
+	},
+	{
+		"name": "Oculasignio",
+		"type": "boss",
+		"level": 226,
+		"element": "Dark",
+		"baseEXP": 21100,
+		"baseHP": 4700000,
+		"stats": {
+			"def": {
+				"Ocula N": 987,
+				"Ocula Break+Body": 395,
+				"Tepipotamus": 550
+			},
+			"pRes": {
+				"Ocula N": 30,
+				"Ocula Break 1": 20,
+				"Ocula Break 2": 10,
+				"Ocula Break 3": 0,
+				"Tepipotamus": 8
+			},
+			"mDef": {
+				"Ocula N": 987,
+				"Ocula Break+Body": 395,
+				"Tepipotamus": 550
+			},
+			"mRes": {
+				"Ocula N": 30,
+				"Ocula Break 1": 20,
+				"Ocula Break 2": 10,
+				"Ocula Break 3": 0,
+				"Tepipotamus": 8
+			},
+			"pProrat": 5,
+			"mProrat": 5,
+			"nProrat": 5,
+			"critRes": {
+				"Oculasignio": 30,
+				"Tepipotamus": 20
+			},
+			"flee": 310
+		},
+		"phases": [],
+		"retaliates": "OCULASIGNIO = T: Immune above 50% HP\nFS: Immune below 50% HP\nBreaking the boss's parts reduces its PRES/MRES by 10% for each part. Breaking the boss's Body reduces its DEF/MDEF by 60%.\n\nTEPIPOTAMUS = FTS: Immune. If the RED TEPIPOTAMUS receives damage that is < 1k, it will explode. If the BLUE TEPIPOTAMUS receives damage that is > 100k, it will explode. The TEPIPOTAMUS's explosions are enemy-centered circular AOEs with a radius of 12m. The explosions deal 110% MaxHP fractional damage and inflict absolute [Ignite].",
+		"tips": "Above 50% HP, Oculasignio is immune to Tumble. Below 50% HP, it is immune to Flinch and Stun. The boss gains new attack patterns at <= 50% HP. Be careful with damage thresholds on Tepipotamus: do not deal < 1k damage to RED Tepipotamus, and do not deal > 100k damage to BLUE Tepipotamus to avoid 110% MaxHP fractional damage explosions.",
+		"partDestruction": "Breaking parts reduces P.RES/M.RES by 10% per part. Breaking Body reduces DEF/MDEF by 60%."
+	},
+	{
+		"name": "Gordel",
+		"type": "boss",
+		"level": 229,
+		"element": "Earth",
+		"baseEXP": 25000,
+		"baseHP": 5500000,
+		"stats": {
+			"def": {
+				"Norm": 1717,
+				"Break+Torso": 1145
+			},
+			"pRes": {
+				"Norm": 39,
+				"Break+Tail": 19
+			},
+			"mDef": {
+				"Norm": 1717,
+				"Break+Torso": 1145
+			},
+			"mRes": {
+				"Norm": 39,
+				"Break+Tail": 19
+			},
+			"pProrat": 1,
+			"mProrat": 5,
+			"nProrat": 1,
+			"critRes": 40,
+			"flee": 350
+		},
+		"phases": [
+			{
+				"id": "PH2",
+				"trigger": "50% HP",
+				"description": "Switches to PH2 at 50% HP."
+			}
+		],
+		"retaliates": "F: OK during PH1. Immune to F during PH2\nT: During PH1, if F is not in cooldown and the boss is Tumbled, F will be forced into cooldown. Immune to T during PH2.\nS: Immune to S during PH1. OK during PH2\n\nBREAK+TAIL: PRES/MRES -20%\nBREAK+TORSO: DEF/MDEF -33%\nBreaking parts also reduces the boss's guard rate.",
+		"tips": "The boss has a straight line punch attack that inflicts absolute [Stun]. The boss has attack patterns that release spikes which deal 90% MaxHP fractional damage. All spike AOEs explode after 5 seconds, dealing another 90% MaxHP fractional damage. The boss's annular spike AOE has an outer radius of 24m. When the boss's HP crosses 50%, the boss will enter PH2 and perform the same actions as its retaliation for being stunned during PH2 (Invincible briefly, go to center, summon spike beds, release annulus-shaped foe-centered spike bed AOE, where safe areas are inside the inner circle and outside the outer circle).",
+		"partDestruction": "Breaking Tail reduces P.RES/M.RES by 20%. Breaking Torso reduces DEF/MDEF by 33%. Breaking parts also reduces guard rate."
+	},
+	{
+		"name": "Reliza",
+		"type": "boss",
+		"level": 210,
+		"element": "Dark",
+		"baseEXP": 26200,
+		"baseHP": 5500000,
+		"stats": {
+			"def": 420,
+			"pRes": {
+				"PH1+PH2": 8,
+				"PH3": -42
+			},
+			"mDef": {
+				"PH1+PH2": 631,
+				"PH3": 575
+			},
+			"mRes": 8,
+			"pProrat": 1,
+			"mProrat": 10,
+			"nProrat": 1,
+			"critRes": {
+				"PH1+PH2": 30,
+				"PH3": 500
+			},
+			"flee": 625
+		},
+		"phases": [
+			{
+				"id": "PH2",
+				"trigger": "HP Threshold",
+				"description": "Switches to PH2. Spike beds inflict current HP fractional damage."
+			},
+			{
+				"id": "PH3",
+				"trigger": "40% HP",
+				"description": "Switches to PH3. Gains high critical resistance (500) and negative physical resistance (-42)."
+			}
+		],
+		"retaliates": "F: Retaliates with a mana explosion inflicting player-centered attack during PH1 and PH3.\nT: Retaliates with a mana explosion inflicting player-centered attack during PH2 and PH3.\nDuring each phase change, the boss will go to the middle of the map and become invincible for a short period of time. Immune to Fear.",
+		"tips": "During PH1, spike beds around the map deal magical damage. During PH2 and PH3, they deal current HP fractional damage. In PH3 (under 40% HP of PH2), critical resistance spikes to 500 but physical resistance drops to -42.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Gemma",
+		"type": "boss",
+		"level": 208,
+		"element": "Fire",
+		"baseEXP": 14080,
+		"baseHP": 2884000,
+		"stats": {
+			"def": 728,
+			"pRes": 16,
+			"mDef": 728,
+			"mRes": 16,
+			"pProrat": 5,
+			"mProrat": 10,
+			"nProrat": 10,
+			"critRes": 20,
+			"flee": 465
+		},
+		"phases": [],
+		"retaliates": "- T: Immune. FTS: Immune during shell mode.\n- Dizzy: The boss turns yellow, retaliates with a spinning attack that inflicts Dizzy, and becomes Earth element.\n- Paralyze: The boss turns green, retaliates with a spinning attack that inflicts Paralysis, and becomes Light element.\n- Ignite: The boss turns red, retaliates with a spinning attack that inflicts Ignite, and becomes Fire element.\n- The boss will not react to Ignite, Paralyze, or Dizzy when the boss is already in a particular color: Red=Ignite OK, Yellow=Dizzy OK, and Green=Paralyze OK.\n- The boss goes into shell mode for 15 sec at 75%, 50%, and 25% HP. While in shell mode, the boss will have high defense and resistance. Successfully triggering a retaliation via Ignite, Paralyze, or Dizzy during shell mode will cancel the shell mode.",
+		"tips": "At 75%, 50%, and 25% HP, the boss enters shell mode for 15s, gaining high defense and resistance. Trigger a retaliation (Ignite, Paralyze, or Dizzy) to cancel shell mode immediately. At 75% HP, the boss summons multiple meteorites. At 50% HP, it fires large, enemy-centered shark waves. At 25% HP, it summons a huge enemy-centered spike bed.",
+		"partDestruction": ""
+	},
+	{
+		"name": "Ferzen the rock dragon",
+		"type": "boss",
+		"level": 211,
+		"element": "Earth",
+		"baseEXP": 15100,
+		"baseHP": 3171000,
+		"stats": {
+			"def": {
+				"N": 1055,
+				"BREAK+HEAD": 1003,
+				"BREAK+TAIL": 1003,
+				"BREAK+BODY": 951
+			},
+			"pRes": 8,
+			"mDef": {
+				"N": 740,
+				"BREAK+HEAD": 712,
+				"BREAK+TAIL": 712,
+				"BREAK+BODY": 686
+			},
+			"mRes": 8,
+			"pProrat": 10,
+			"mProrat": 20,
+			"nProrat": 10,
+			"critRes": 20,
+			"flee": 314
+		},
+		"phases": [],
+		"retaliates": "Breaking this boss's parts reduces its defences. Breaking the boss's head or tail causes the boss to gain new attack patterns.",
+		"tips": "At 15% HP, the boss will gain invincibility for a period of time, release floor spikes centered around its body, and summon four large, circular AOE attacks. When the aggro holder is outside of the boss's attack range, the boss will start moving towards the aggro holder. On the third step of the boss's movement, the boss will start producing shockwaves while walking. These shockwaves have a range of 3m and inflict Flinch to those who are hit.",
+		"partDestruction": "Breaking head or tail reduces DEF by 52 and MDEF by 28, but causes the boss to gain new attack patterns. Breaking body reduces DEF by 104 and MDEF by 54."
+	},
+	{
+		"name": "Junior dragon zyvio",
+		"type": "boss",
+		"level": 214,
+		"element": "Neutral",
+		"baseEXP": 16200,
+		"baseHP": 3550000,
+		"stats": {
+			"def": 640,
+			"pRes": 8,
+			"mDef": 535,
+			"mRes": 8,
+			"pProrat": 10,
+			"mProrat": 5,
+			"nProrat": 5,
+			"critRes": 20,
+			"flee": 640
+		},
+		"phases": [],
+		"retaliates": "S: Immune to S while in Normal mode and HP >= 50%. Also immune to S while in Rage mode. S is effective when the boss is in Normal mode and HP < 50%. FT: Immune to FT while in Normal mode and HP < 50%.",
+		"tips": "The boss has a damage limit of 999999. If the boss receives damage above 500k in one instance, the boss will go into Rage mode and summon 2 Zimius mobs (max 2 at a time). While in Rage mode, the boss's Evasion rate increases, but the damage limit is lifted. At 50% HP, the boss becomes [Invincible] for a period of time, goes into Rage mode, and summons 2 Zimius mobs (max 2 at a time). Rage mode lasts for 30 seconds.",
+		"partDestruction": ""
+	},
+	{
+		"name": "War dragon turba",
+		"type": "boss",
+		"level": 217,
+		"element": "Earth",
+		"baseEXP": 16700,
+		"baseHP": 3800000,
+		"stats": {
+			"def": 596,
+			"pRes": 8,
+			"mDef": 705,
+			"mRes": 8,
+			"pProrat": 5,
+			"mProrat": 10,
+			"nProrat": 10,
+			"critRes": 40,
+			"flee": 480
+		},
+		"phases": [
+			{
+				"id": "PH2",
+				"trigger": "50% HP",
+				"description": "Switches to PH2 at 50% HP."
+			}
+		],
+		"retaliates": "FTS: Increased cooldown during PH2 (HP <= 50%).\nT: Immune during PH1 (HP > 50%).\nS: When stunned during PH2, the boss will: gain [Invincible] for a short period of time, go to the center of the map, summon a bunch of spike beds, and then release an annulus-shaped, foe-centered spike bed AOE, where the safe areas are inside the inner circle (by the boss) and outside the outer circle.\n\nWhen the boss's HP crosses 50%, the boss will enter PH2 and perform the same actions as its retaliation for being stunned during PH2 (described above).\nBreaking the boss's parts significantly reduces the boss's guard rate.",
+		"tips": "Do not stun the boss in PH2 unless necessary, as it triggers a map-wide hazard (safe spots are only very close to the boss or far away). The boss has a straight line laser attack that inflicts absolute [Petrify].",
+		"partDestruction": "Breaking parts significantly reduces the boss's guard rate."
+	},
+	{
+		"name": "Guard Golem",
+		"type": "boss",
+		"level": 232,
+		"element": "Earth",
+		"baseEXP": 38000,
+		"baseHP": 10000000,
+		"stats": {
+			"def": {
+				"PH1": 1160,
+				"PH2": 0,
+				"PH3": 0
+			},
+			"pRes": {
+				"PH1": 25,
+				"PH2": 80,
+				"PH3": 0
+			},
+			"mDef": {
+				"PH1": 1160,
+				"PH2": 0,
+				"PH3": 0
+			},
+			"mRes": {
+				"PH1": 25,
+				"PH2": 80,
+				"PH3": 0
+			},
+			"pProrat": 0,
+			"mProrat": 0,
+			"nProrat": 0,
+			"critRes": 25,
+			"flee": 450
+		},
+		"phases": [
+			{
+				"id": "PH2",
+				"trigger": "50% HP",
+				"description": "Switches to PH2 (Yellow) at 50% HP."
+			},
+			{
+				"id": "PH3",
+				"trigger": "20 seconds or 25% HP",
+				"description": "Switches to PH3 (Red)."
+			}
+		],
+		"retaliates": "The boss has 3 phases:\nPH1 (Blue): High Guard Rate. FTS is OK\nPH2 (Yellow): High Resistance. Immune to FTS on start of phase. OK afterwards.\nPH3 (Red): High Evasion Rate and motion speed. Immune to FTS.\n\nFear: Immune\nParalysis: During PH3, inflicting [Paralysis] on the boss will interrupt its actions for 5 seconds.",
+		"tips": "At 50% HP, the boss transitions to PH2, falls down, and releases brown tornadoes dealing MaxHP fractional damage. After 20 seconds of being in PH2 OR if HP reaches 25% while in PH2, the boss transitions to PH3.\nIf transitioning to PH3 due to the 20-second trigger, the boss heals 50% MaxHP and releases large fatal fins; this pattern can be interrupted by Paralysis. If transitioning due to the 25% HP trigger, it will not heal or release fins. Red tornadoes in PH3 deal very large MaxHP fractional damage.",
+		"partDestruction": ""
+	}
+]
